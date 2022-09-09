@@ -114,9 +114,9 @@ function setEdges() {
 };
 
 function setDots() {
-  dots.push(new Dot(tiles[2][5], tiles[9][5], 0.6));
+  dots.push(new Dot(tiles[2][5], tiles[9][5], 0.8));
   dots.push(new Dot(tiles[6][2], tiles[17][2], 0.8));
-  dots.push(new Dot(tiles[19][5], tiles[11][5], -0.6));
+  dots.push(new Dot(tiles[19][5], tiles[11][5], -0.7));
 };
 
 function setSolids() {
